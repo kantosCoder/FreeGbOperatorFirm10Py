@@ -1,10 +1,10 @@
-First of all:
+<h1>First of all:</h1>
 
 Thanks to N0ciple https://github.com/N0ciple/gbopyrator for the gb_gbc_roms_info.json 
 archive for the cartridge's crc database.
 
 
-The thing:
+<h1>The thing:</h1>
 
 This is a share of the files that i'm using for my own project related with spanish
 pokemon gen 1 and 2 gameboy cartridges, so the results may vary as the files are
@@ -17,7 +17,7 @@ writing data to them through external sources or something like that),
 I hope these files serve you in any way to whatever project you are making!
 
 
-Notes:
+<h1>Notes:</h1>
 
 This is meant to work with the Epilogue GB Operator with the firmware 10. I cannot guarantee
 that i'll work with anything higher and certainly it wont work with anything below 10.
@@ -45,11 +45,11 @@ thing you should try to change while troubleshooting!
 
 
 
-How to setup to get it running:
+<h1>How to setup to get it running:</h1>
 
 Simply Install python 3.11.9 (The version I'm using to build this)
 
-Files usage:
+<h1>Files usage:</h1>
 
 dump.py -> to dump the cart SRAM (savegame)</br>
 load.py -> to write to the cart SRAM</br>
