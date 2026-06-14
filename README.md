@@ -27,6 +27,12 @@ on the "COM AND LPT" category. As you can see, mine is on "COM8":
 
 <img width="328" height="92" alt="image" src="https://github.com/user-attachments/assets/3ded78c1-de9f-4580-b904-788ad7c6d93b" />
 
+and then, edit the COM PORT on the .py files:
+
+<img width="267" height="78" alt="image" src="https://github.com/user-attachments/assets/0304942a-9157-4c10-9fea-83fe3c08c24a" />
+
+to whatever port your Epilogue GB Operator firmware version 10 is using.
+
 For advanced users, if anything goes wrong, this is the current driver status my
 Epilogue GB Operator is working under (using zadig-2.9) (Disable Ignore hubs to see the composite parent):
 
@@ -38,10 +44,7 @@ I think I left it stock, but as it is working now under these drivers, this is t
 thing you should try to change while troubleshooting!
 
 
-and edit the COM PORT on the .py files:
-# COM PORT SETTINGS
-PUERTO = 'COM8'
-to whatever port your Epilogue GB Operator firmware version 10 is using.
+
 
 How to setup to get it running:
 
