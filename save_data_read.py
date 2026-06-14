@@ -26,13 +26,10 @@ def parse_save(file_path):
     with open(file_path, "rb") as f:
         sav = f.read()
 
-    # DETECCIÓN TÉCNICA
-    # En Gen 2, el bloque de nombre/ID empieza en 0x2009. 
-    # En Gen 1, esa zona suele ser 0x00 o datos de la Pokédex.
+    # PKM GEN DETECTION
     id_g2 = int.from_bytes(sav[0x2009:0x200B], "big")
     first_char_g2 = sav[0x200B]
-    
-    # Si el ID de Gen 2 parece válido y el primer carácter del nombre está en el mapa
+
     if id_g2 != 0 and first_char_g2 in CHAR_MAP:
         mode = "GEN2"
     else:
