@@ -51,7 +51,7 @@ Simply Install python 3.11.9 (The version I'm using to build this)
 
 Files usage:
 
-dump.py -> to dump the cart SRAM (savegame)
-load.py -> to write to the cart SRAM
-read_cart_data.py -> to read cart header info.
-save_data_read.py -> read pokemon games SRAM savegame info (at least on eur spanish ones)
+dump.py -> to dump the cart SRAM (savegame)</br>
+load.py -> to write to the cart SRAM</br>
+read_cart_data.py -> to read cart header info.</br>
+save_data_read.py -> read pokemon games SRAM savegame info (at least on eur spanish ones)</br>
