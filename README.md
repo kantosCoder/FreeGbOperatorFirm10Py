@@ -1,8 +1,11 @@
 First of all:
+
 Thanks to N0ciple https://github.com/N0ciple/gbopyrator for the gb_gbc_roms_info.json 
 archive for the cartridge's crc database.
 
+
 The thing:
+
 This is a share of the files that i'm using for my own project related with spanish
 pokemon gen 1 and 2 gameboy cartridges, so the results may vary as the files are
 heavily focused on that purpose, but the code is there and can be repurposed and used.
@@ -12,6 +15,7 @@ happens to help me fix it. (Seems some kind of security those cartridges have be
 writing data to them through external sources or something like that),
 
 I hope these files serve you in any way to whatever project you are making!
+
 
 Notes:
 
