@@ -19,11 +19,13 @@ This is meant to work with the Epilogue GB Operator with the firmware 10. I cann
 that i'll work with anything higher and certainly it wont work with anything below 10.
 
 Use the Windows Device Manager to find your GB Operator and determine your COM port
-on the "COM AND LPT" category. As you can see, mine is on "COM8"
+on the "COM AND LPT" category. As you can see, mine is on "COM8":
+
 <img width="328" height="92" alt="image" src="https://github.com/user-attachments/assets/3ded78c1-de9f-4580-b904-788ad7c6d93b" />
 
 For advanced users, if anything goes wrong, this is the current driver status my
 Epilogue GB Operator is working under (using zadig-2.9) (Disable Ignore hubs to see the composite parent):
+
 <img width="703" height="309" alt="image" src="https://github.com/user-attachments/assets/f5e6c0ae-8d84-45cb-8059-6ca0d5bbfc63" />
 <img width="713" height="311" alt="image" src="https://github.com/user-attachments/assets/45d7f412-1dda-4696-9bb4-ec73aca8f4c0" />
 <img width="707" height="312" alt="image" src="https://github.com/user-attachments/assets/82bf6aed-bdb4-431e-beb2-041b35a87d7b" />
