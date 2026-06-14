@@ -45,7 +45,13 @@ thing you should try to change while troubleshooting!
 
 
 
-
 How to setup to get it running:
 
 Simply Install python 3.11.9 (The version I'm using to build this)
+
+Files usage:
+
+dump.py -> to dump the cart SRAM (savegame)
+load.py -> to write to the cart SRAM
+read_cart_data.py -> to read cart header info.
+save_data_read.py -> read pokemon games SRAM savegame info (at least on eur spanish ones)
